@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 
-body {
-  width: 100%;
-  padding: auto;
-margin:0 auto;
-font-family: 'Alatsi', sans-serif;
+body{
+    width: 100%;
+    padding: auto;
+  margin:0 auto;
+  font-family: 'Alatsi', sans-serif;
 }
 
 header {

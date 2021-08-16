@@ -11,7 +11,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (
-<body>
+    <>
 <header> 
         <h1 className="title">PORTOFOLIO</h1>
         <div className="navbar">
@@ -58,7 +58,7 @@ function App() {
     <footer>
   <h3 className="footer-text">Copyright&copy; Molzania -2021-</h3>
 </footer>
-</body>
+</>
   );
 }
 
