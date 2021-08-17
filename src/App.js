@@ -7,6 +7,7 @@ import logo4 from './img/logo4.jpg';
 import logo5 from './img/logo5.jpg';
 import logo6 from './img/logo6.jpg';
 import 'font-awesome/css/font-awesome.min.css';
+import React from "react";
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
             <a className="menu" href="#Home">Home</a>
             <a className="menu" href="https://www.molzania.com">Blog</a>
             <a className="menu" href="#Work">Work</a>
-            <a className="menu" href="#Contact">Contact</a>
+            <a className="menu" href="./Contact">Contact</a>
         </div>
     </header>
     <div className="about" alt="about">
