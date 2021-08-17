@@ -16,7 +16,7 @@ function App() {
         <h1 className="title">PORTOFOLIO</h1>
         <div className="navbar">
             <a className="menu" href="#Home">Home</a>
-            <a className="menu" href="#About">Blog</a>
+            <a className="menu" href="https://www.molzania.com">Blog</a>
             <a className="menu" href="#Work">Work</a>
             <a className="menu" href="#Contact">Contact</a>
         </div>
