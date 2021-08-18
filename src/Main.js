@@ -14,8 +14,8 @@ import Contact from './Contact';
 const Main = () => {
   return (
     <Switch> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='/Home' component={Home}></Route>
-      <Route exact path='/Contact' component={Contact}></Route>
+      <Route exact path='./Home' component={Home}></Route>
+      <Route exact path='./Contact' component={Contact}></Route>
     </Switch>,
        <>
        <div className="about" alt="about">
