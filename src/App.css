@@ -25,9 +25,13 @@ header {
   margin-left:20px;
 }
 
-menu:hover{
-  color: yellow;
+.menu:hover{
   background-color: turquoise;
+  color:black;
+}
+
+Link{
+  color:white !important;
 }
 
 .title {
