@@ -1,4 +1,4 @@
-import './App.css';
+import './Home.css';
 import molzania from './img/molzania.png';
 import logo1 from './img/logo1.jpg';
 import logo2 from './img/logo2.jpg';
@@ -8,6 +8,7 @@ import logo5 from './img/logo5.jpg';
 import logo6 from './img/logo6.jpg';
 import 'font-awesome/css/font-awesome.min.css';
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
     <div className="navbar-bawah">
     <h2 className="sosial-media">Sosial Media</h2>
     <div className="flex-container">
-        <i href="https://www.facebook.com/cinderella.vampire" className="fa fa-facebook"></i>
+        <i className="fa fa-facebook"><Link to="https://www.facebook.com/cinderella.vampire"></Link></i>
         <i href="https://www.twitter.com/vampiregadiez" className="fa fa-twitter"></i>
         <i href="https://www.instagram.com/molzania" className="fa fa-instagram"></i>
         <i href="https://www.youtube.com/channel/molzania" className="fa fa-youtube"></i>

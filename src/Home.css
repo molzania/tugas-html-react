@@ -25,11 +25,6 @@ header {
   margin-left:20px;
 }
 
-menu:hover{
-  color: yellow;
-  background-color: turquoise;
-}
-
 .title {
   font-size: 30px;
   color:white;
