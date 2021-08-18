@@ -10,12 +10,14 @@ import logo5 from './img/logo5.jpg';
 import logo6 from './img/logo6.jpg';
 import Home from './Home';
 import Contact from './Contact';
+import Work from './Work'
 
 const Main = () => {
   return (
     <Switch> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='./Home' component={Home}></Route>
-      <Route exact path='./Contact' component={Contact}></Route>
+      <Route exact path='/Home' component={Home}></Route>
+      <Route exact path='/Contact' component={Contact}></Route>
+      <Route exact path='/Work' component={Work}></Route>
     </Switch>,
        <>
        <div className="about" alt="about">

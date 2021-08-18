@@ -11,10 +11,10 @@ function App() {
 <header> 
         <h1 className="title">PORTOFOLIO</h1>
         <div className="navbar">
-            <a><Link to="./Home" className="link">Home</Link></a>
+            <a><Link to="/Home" className="link">Home</Link></a>
             <a className="menu" href="https://www.molzania.com">Blog</a>
-            <a><Link to="" className="link">Work</Link></a>
-           <a><Link to="./Contact" className="link">Contact</Link></a>
+            <a><Link to="./Work" className="link">Work</Link></a>
+           <a><Link to="/Contact" className="link">Contact</Link></a>
         </div>
     </header>
 <Main/>
