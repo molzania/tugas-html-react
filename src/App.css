@@ -30,9 +30,15 @@ header {
   color:black;
 }
 
-Link{
+.link{
+  margin: 10px;
   color:white !important;
 }
+
+.link:hover{
+  background-color: turquoise;
+}
+
 
 .title {
   font-size: 30px;
