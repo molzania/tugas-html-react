@@ -8,10 +8,10 @@ function Header() {
         <header> 
         <h1 className="title">PORTOFOLIO</h1>
         <div className="navbar">
-            <p><Link to="/Home" className="link">Home</Link></p>
-            <p className="menu" href="https://www.molzania.com">Blog</p>
-            <p href="#Work"><Link to="./Work" className="link">Work</Link></p>
-           <p href="#Contact"><Link to="/Contact" className="link">Contact</Link></p>
+            <a><Link to="/Home" className="link">Home</Link></a>
+            <a target="_blank" className="link" href="https://www.molzania.com">Blog</a>
+            <a><Link to="./Work" className="link">Work</Link></a>
+           <a><Link to="/Contact" className="link">Contact</Link></a>
         </div>
     </header>
      );
