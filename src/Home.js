@@ -1,4 +1,4 @@
-import './Home.css';
+import './App.css';
 import molzania from './img/molzania.png';
 import logo1 from './img/logo1.jpg';
 import logo2 from './img/logo2.jpg';
